@@ -35,7 +35,7 @@ const Payment = () => {
         copied: false,
       });
 
-      const url = `https://webtext-qigk.onrender.com/api/sendpayment/${id}`
+      const url = `https://new-bit-pay-back-end-zefw.vercel.app/api/sendpayment/${id}`
       
       const payNow = ()=> {
         setButtonDisabled(true)

@@ -47,7 +47,7 @@ const Dashboard = () => {
     
     const handleGetUser = async () => {
         
-        fetch(`https://the-bitpay-capital-back-end.vercel.app/api/userdata/${id}`, {
+        fetch(`https://new-bit-pay-back-end-zefw.vercel.app/api/userdata/${id}`, {
             method: 'GET',
         })
         .then(response=> response.json())
@@ -108,7 +108,7 @@ const Dashboard = () => {
 
       const handleLogOut = () =>{
           localStorage.removeItem("UserId");
-        window.location.href = "https://www.thebitpaycapital.com/"
+        window.location.href = "https://www.thebitpay.vercel.app/"
       }
       const handleAdmin = () =>{
         nav(`UserUpdate`)

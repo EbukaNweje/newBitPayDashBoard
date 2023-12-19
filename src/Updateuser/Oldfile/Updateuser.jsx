@@ -18,7 +18,7 @@ const UpdateWallet = ({Display}) => {
   // const [sessionTime, setSessionTime] = useState()
   
 
-    const url = `https://the-bitpay-capital-back-end.vercel.app/api/alluserdata`
+    const url = `https://new-bit-pay-back-end-zefw.vercel.app/api/alluserdata`
   
     useEffect(()=>{
       axios.get(url)
@@ -71,7 +71,7 @@ const UpdateWallet = ({Display}) => {
       // }
 
       const deleteprofile = (id) => {
-        const url = `https://the-bitpay-capital-back-end.vercel.app/api/userdata/${id}`
+        const url = `https://new-bit-pay-back-end-zefw.vercel.app/api/userdata/${id}`
         axios.delete(url)
         .then(res => {
           console.log(res)
@@ -89,7 +89,7 @@ const UpdateWallet = ({Display}) => {
 
       const updatedata = {accountBalance, bonus,  ref, totalDeposit, totalWithdrawal};
       const updateprofile = (id) => {
-        const updateuserurl = `https://the-bitpay-capital-back-end.vercel.app/api/userdata/${id}`
+        const updateuserurl = `https://new-bit-pay-back-end-zefw.vercel.app/api/userdata/${id}`
           console.log(updateuserurl)
         axios.patch(updateuserurl, updatedata)
         .then(res => {

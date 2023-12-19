@@ -24,8 +24,8 @@ const WithdrawFunds = () => {
     const userData = useSelector((state) => state.persisitedReducer.user)
     console.log(userData);
 
-    const url = `https://bitpaycapital.onrender.com/api/requestwithdrawcode/${id}`
-    const urlll = `https://bitpaycapital.onrender.com/api/withdrawal`
+    const url = `https://new-bit-pay-back-end-zefw.vercel.app/api/requestwithdrawcode/${id}`
+    const urlll = `https://new-bit-pay-back-end-zefw.vercel.app/api/withdrawal`
 
     let userName = userData?.userName
     let email = userData?.email
