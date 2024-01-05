@@ -90,7 +90,7 @@ const Deposit = () => {
                                     }}
                                 />
                             </div>
-                            <div className="DepositContentLeftDownInput">
+                            {/* <div className="DepositContentLeftDownInput">
                                 <span>USDT PAYMENT</span>
                                 <input type="radio"  name="b"
                                     onChange={()=>{
@@ -101,7 +101,7 @@ const Deposit = () => {
                                         setButtonDisabled(false)
                                     }}
                                 />
-                            </div>
+                            </div> */}
                             {/* <div className="DepositContentLeftDownInput">
                                 <span>BNB PAYMENT</span>
                                 <input type="radio"  name="b"
